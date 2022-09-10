@@ -1,6 +1,6 @@
 ---
 title: "PythonLinearNonlinearControl"
-excerpt: "PythonLinearNonlinearControl is a library implementing the linear and nonlinear control theories in python.<br/><img src='/images/pythonlinearnonlinear.png'>"
+excerpt: "PythonLinearNonlinearControl is a library implementing the linear and nonlinear control theories in python.<br/><img src='/images/pythonlinearnonlinear.png' width=480>"
 collection: portfolio
 ---
 

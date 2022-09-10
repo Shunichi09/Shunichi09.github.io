@@ -1,6 +1,6 @@
 ---
 title: "Sergey Levine's Lecture Slides in Japanese"
-excerpt: "I'm watching the lectures of reinforcement learning and summarizing them in Japanese.<br/><img src='/images/sergeylevinelecture.png'>"
+excerpt: "I'm watching the lectures of reinforcement learning and summarizing them in Japanese.<br/><img src='/images/sergeylevinelecture.png' width=480>"
 collection: portfolio
 ---
 
