@@ -11,30 +11,29 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in System Engineering, Keio University, 2018
+* M.S. in Engineering, Keio University, 2020
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Feb 2019 - Mar 2019: Intern
+  * at [Sony Grop Corporation R&D ceneter](https://www.sony.com/en/SonyInfo/research/)
+  * Worked on a game AI project and applied model-based reinforcement learning method to the game agent.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* July 2019 - Mar 2020: Intern
+  * at [Preferred Networks, Inc.](https://www.preferred.jp/en/)
+  * Worked on a project about model-based reinforcement learning method which can handle an uncertainty of a transition model.
+
+* Apr 2020 - Now: Research Engineer
+  * at [Sony Grop Corporation R&D ceneter](https://www.sony.com/en/SonyInfo/research/)
+  * Working on a behavior learning project for realizing a robot being able to manipulate objects.
+  * developing a reinforcement learning library called nnablaRL(https://github.com/sony/nnabla-rl) as a main contributor.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python 5 years
+* C++ 5 years
+* ROS 5 years
 
 Publications
 ======
@@ -42,18 +41,9 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Awards
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* [Hatakeyama Award of the Japan Society of Mechanical Engineers](https://www.jsme.or.jp/archive/award/shou4-17.pdf)
+  * Award for academic achievements. 2 people are chosen out of the students of Department of system design engineering, about 200 people.
+* [Fujiwara Award](https://www.st.keio.ac.jp/students/life/fujiwara/0908.html)
+  * Award for academic achievements and sports activities. About 10 people are chosen out of the students of School for science and technology, about 2000 people.
