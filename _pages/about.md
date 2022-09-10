@@ -20,6 +20,6 @@ Recently, I've started to learn 3D CG creations. See [Portfolio](https://shunich
 News
 ------
 
-- Happy to announce that we've released [nnablaRL](https://github.com/sony/nnabla-rl). See https://blog.nnabla.org/news/release-nnablarl/ for more information. (2021)
+- Happy to announce that we've released [nnablaRL](https://github.com/sony/nnabla-rl). See [release-nnablarl](https://blog.nnabla.org/news/release-nnablarl/) for more information. (2021)
 
 - My control theory library got 500 stars ! See [PythonLinearNonlinearControl](https://github.com/Shunichi09/PythonLinearNonlinearControl)
