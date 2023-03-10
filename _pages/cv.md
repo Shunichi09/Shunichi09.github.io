@@ -27,7 +27,7 @@ Work experience
 
 * Apr 2020 - Now: Research Engineer
   * at [Sony Grop Corporation R&D ceneter](https://www.sony.com/en/SonyInfo/research/)
-  * Working on a behavior learning project for realizing a robot being able to manipulate objects.
+  * Working on a behavior learning project for realizing a robot being able to manipulate various objects.
   * developing a reinforcement learning library called nnablaRL(https://github.com/sony/nnabla-rl) as a main contributor.
   
 Skills
