@@ -19,7 +19,7 @@ Education
 Work experience
 ======
 * Feb 2019 - Mar 2019: Intern
-  * at [Sony Group Corporation R&D ceneter](https://www.sony.com/en/SonyInfo/research/)
+  * at [Sony Group Corporation R&D center](https://www.sony.com/en/SonyInfo/research/)
   * Worked on a game AI project and applied model-based reinforcement learning method to the game agent.
 
 * July 2019 - Mar 2020: Intern
@@ -27,7 +27,7 @@ Work experience
   * Worked on a project about model-based reinforcement learning method which can handle an uncertainty of a transition model.
 
 * Apr 2020 - Now: Research Engineer
-  * at [Sony Group Corporation R&D ceneter](https://www.sony.com/en/SonyInfo/research/)
+  * at [Sony Group Corporation R&D center](https://www.sony.com/en/SonyInfo/research/)
   * Working on a behavior learning project for realizing a robot being able to manipulate various objects.
   * developing a reinforcement learning library called nnablaRL(https://github.com/sony/nnabla-rl) as a main contributor.
   
