@@ -13,7 +13,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if post.collection == 'publications' and teaser %} archive__item--publication{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -24,6 +24,19 @@
           {% endif %}
           alt="">
       </div>
+    {% endif %}
+
+    {% if post.collection == 'publications' and teaser and include.type != "grid" %}
+      <a class="archive__item-teaser archive__item-teaser--publication" href="{{ base_path }}{{ post.url }}" aria-label="View {{ title }}">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="Illustration for {{ title }}">
+      </a>
+      <div class="archive__item-body">
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
@@ -52,12 +65,16 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.citation %}
+    {% if post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+    {% endif %}
+
+    {% if post.collection == 'publications' %}
+      {% include publication-links.html publication=post %}
+    {% endif %}
+
+    {% if post.collection == 'publications' and teaser and include.type != "grid" %}
+      </div>
     {% endif %}
 
   </article>

@@ -84,6 +84,37 @@
   }
 }
 
+.archive__item--publication {
+  margin-bottom: 2em;
+
+  .archive__item-teaser--publication {
+    display: block;
+    margin-bottom: 1em;
+
+    img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+  }
+
+  @include breakpoint($small) {
+    display: grid;
+    grid-template-columns: minmax(180px, 30%) minmax(0, 1fr);
+    gap: 1.5em;
+    align-items: start;
+
+    .archive__item-teaser--publication {
+      margin-bottom: 0;
+    }
+
+    .archive__item-body .archive__item-title {
+      margin-top: 0;
+    }
+  }
+}
+
 
 /*
    List view

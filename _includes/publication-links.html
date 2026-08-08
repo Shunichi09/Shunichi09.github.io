@@ -1,0 +1,18 @@
+{% assign publication = include.publication %}
+{% if publication.links %}
+  <div class="publication__links" aria-label="Publication links">
+    {% for link in publication.links %}
+      <a href="{{ link.url }}" class="btn publication__link" target="_blank" rel="noopener noreferrer">
+        {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
+        <span>{{ link.label }}</span>
+      </a>
+    {% endfor %}
+  </div>
+{% elsif publication.paperurl %}
+  <div class="publication__links" aria-label="Publication links">
+    <a href="{{ publication.paperurl }}" class="btn publication__link" target="_blank" rel="noopener noreferrer">
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+      <span>Paper</span>
+    </a>
+  </div>
+{% endif %}

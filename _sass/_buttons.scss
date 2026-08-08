@@ -151,3 +151,29 @@
     font-size: $type-size-7;
   }
 }
+
+.publication__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 1em 0;
+
+  .publication__link {
+    margin: 0;
+    padding: 0.55em 1.1em;
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #263746;
+    border-radius: 999px;
+
+    &:hover {
+      color: #fff !important;
+      text-decoration: none;
+      background-color: #111f2b;
+    }
+
+    i {
+      margin-right: 0.4em;
+    }
+  }
+}

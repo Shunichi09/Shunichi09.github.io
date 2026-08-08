@@ -166,6 +166,19 @@
   -ms-interpolation-mode: bicubic;
 }
 
+.publication__hero {
+  margin: 1.5em 0 2em;
+  overflow: hidden;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .page__hero-caption {
   position: absolute;
   bottom: 0;

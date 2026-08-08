@@ -14,7 +14,7 @@ Education
 ======
 * B.S. in System Engineering, Keio University, 2018
 * M.S. in Engineering, Keio University, 2020
-* Sep 2023 - Now: PhD candidate, Keio University
+* Sep 2023 - Present: Ph.D. Candidate at [Takahashi Laboratory](https://www.yt.sd.keio.ac.jp/), Keio University
 
 Work experience
 ======
@@ -28,15 +28,10 @@ Work experience
 
 * Apr 2020 - Now: Research Engineer
   * at [Sony Group Corporation R&D center](https://www.sony.com/en/SonyInfo/research/)
-  * Working on a behavior learning project for realizing a robot being able to manipulate various objects.
-  * developing a reinforcement learning library called nnablaRL(https://github.com/sony/nnabla-rl) as a main contributor.
+  * Developed and released an object-grasping capability for [aibo](https://us.aibo.com/), Sony's entertainment robot.
+  * Developed [nnablaRL](https://github.com/sony/nnabla-rl), an open-source reinforcement learning library.
+  * Currently applying black-box optimization to a wide range of projects across Sony to improve operational efficiency.
   
-Skills
-======
-* Python 5 years
-* C++ 5 years
-* ROS 5 years
-
 Publications
 ======
   <ul>{% for post in site.publications %}

@@ -8,26 +8,31 @@ redirect_from:
   - /about.html
 ---
 
-I'm a research engineer in the R&D department at a Japanese company.
+I'm a research engineer at Sony Group Corporation's R&D Center and a Ph.D. candidate at Keio University.
 
-My focus is on developing algorithms and systems that help people bring their ideas to life. Currently, I am working on creating a new skill for [aibo](https://us.aibo.com/), Sony's pet robot, developing a reinforcement learning library called [nnablaRL](https://github.com/sony/nnabla-rl), and applying reinforcement learning to various services and products.
+My research interests center on human-in-the-loop systems, particularly how human feedback and AI can work together to make learning more efficient, reliable, and aligned with human preferences. I am especially interested in preference-based reinforcement learning and collaborative data labeling with vision-language models (VLMs).
 
-For my master's degree, I researched human-following robots.
-In my PhD, I am working on developing a human-friendly telemanipulation system. You can find more details on my [CV](https://shunichi09.github.io/cv/) page and [Publications](https://shunichi09.github.io/publications/).
+At Sony, I developed and released an object-grasping capability for [aibo](https://us.aibo.com/), contributed to the development of [nnablaRL](https://github.com/sony/nnabla-rl), and am currently applying black-box optimization to a wide range of projects across Sony to improve operational efficiency.
+
+My master's research focused on human-following robots. My Ph.D. research explores human-in-the-loop approaches to reinforcement learning and robotic systems. You can find more details on my [CV](https://shunichi09.github.io/cv/) and [Publications](https://shunichi09.github.io/publications/) pages.
 
 News
 ------
 
-- Presented aibo PICKS UP ANYTHING at the Sony booth during CVPR2024!
-  - [Sony CVPR 2024 site](https://www.sony.com/en/SonyInfo/technology/Conference/CVPR2024/) 
-  - [Youtube video](https://youtu.be/OSxm6VR_RAU?si=Ym2stOBGF45jTqNv)
+- Our paper, [Human-VLM Collaborative Labeling Framework with Consistency-Guided Viewpoint Optimization for Preference-Based Reinforcement Learning](https://ieeexplore.ieee.org/document/11644476), has been accepted for publication in *IEEE Access*. (2026)
 
-- Excited to share our new research [Naming Objects for Vision-and-Language Manipulation](https://arxiv.org/abs/2303.02871). (2023)
+- [aibo PICKS UP ANYTHING](https://aibo.sony.jp/feature/pickupthings.html?s_pid=jp_aibo_fan_pickupthings) has been released!
 
-- Presented nnablaRL in the Sony booth during NeurIPS2022
-  - [Sony NeurIPS2022 Site](https://www.sony.com/en/SonyInfo/sony_ai/neurips2022/#tec-02)
-  - [Youtube video](https://youtu.be/fyXMmWKOO8Q?si=SWcqJogMfAHSXRLu)
+- My control theory library, [PythonLinearNonlinearControl](https://github.com/Shunichi09/PythonLinearNonlinearControl), has reached 1,000 stars on GitHub!
 
-- Happy to announce that we've released [nnablaRL](https://github.com/sony/nnabla-rl). See [release-nnablarl](https://blog.nnabla.org/news/release-nnablarl/) for more information. (2021)
+- Presented aibo PICKS UP ANYTHING at the Sony booth during CVPR 2024.
+  - [Sony's CVPR 2024 website](https://www.sony.com/en/SonyInfo/technology/Conference/CVPR2024/)
+  - [YouTube video](https://youtu.be/OSxm6VR_RAU?si=Ym2stOBGF45jTqNv)
 
-- My control theory library got 800 stars ! See [PythonLinearNonlinearControl](https://github.com/Shunichi09/PythonLinearNonlinearControl)
+- Shared our research, [Naming Objects for Vision-and-Language Manipulation](https://arxiv.org/abs/2303.02871). (2023)
+
+- Presented nnablaRL at the Sony booth during NeurIPS 2022.
+  - [Sony's NeurIPS 2022 website](https://www.sony.com/en/SonyInfo/sony_ai/neurips2022/#tec-02)
+  - [YouTube video](https://youtu.be/fyXMmWKOO8Q?si=SWcqJogMfAHSXRLu)
+
+- Released [nnablaRL](https://github.com/sony/nnabla-rl), an open-source reinforcement learning library. See the [release announcement](https://blog.nnabla.org/news/release-nnablarl/) for more information. (2021)
