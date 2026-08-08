@@ -43,10 +43,6 @@ layout: default
         {% endif %}
         
              
-        {% if page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
-        {% endif %}
-
         {% if page.collection == 'publications' %}
           {% include publication-links.html publication=page %}
         {% endif %}
@@ -65,6 +61,9 @@ layout: default
               {% endif %}
               alt="Illustration for {{ page.title }}">
           </figure>
+        {% endif %}
+        {% if page.collection == 'publications' and page.excerpt %}
+          <div class="publication__summary">{{ page.excerpt | markdownify }}</div>
         {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

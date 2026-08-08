@@ -184,6 +184,16 @@
   }
 }
 
+.publication__summary {
+  margin-bottom: 1.5em;
+  font-size: $type-size-5;
+  line-height: 1.7;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .page__hero-caption {
   position: absolute;
   bottom: 0;

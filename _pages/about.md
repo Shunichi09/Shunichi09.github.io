@@ -10,7 +10,7 @@ redirect_from:
 
 I'm a research engineer at Sony Group Corporation's R&D Center and a Ph.D. candidate at Keio University.
 
-My research interests center on human-in-the-loop systems, particularly how human feedback and AI can work together to make learning more efficient, reliable, and aligned with human preferences. I am especially interested in preference-based reinforcement learning and collaborative data labeling with vision-language models (VLMs).
+My research interests center on human-in-the-loop systems, particularly how human feedback and AI can work together to make learning more efficient, reliable, and aligned with human preferences.
 
 At Sony, I developed and released an object-grasping capability for [aibo](https://us.aibo.com/), contributed to the development of [nnablaRL](https://github.com/sony/nnabla-rl), and am currently applying black-box optimization to a wide range of projects across Sony to improve operational efficiency.
 
