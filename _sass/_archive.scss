@@ -95,14 +95,15 @@
       display: block;
       width: 100%;
       aspect-ratio: 16 / 9;
-      object-fit: cover;
+      object-fit: contain;
+      background-color: #fff;
     }
   }
 
   @include breakpoint($small) {
     display: grid;
-    grid-template-columns: minmax(180px, 30%) minmax(0, 1fr);
-    gap: 1.5em;
+    grid-template-columns: minmax(150px, 25%) minmax(0, 1fr);
+    gap: 1.25em;
     align-items: start;
 
     .archive__item-teaser--publication {

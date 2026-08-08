@@ -167,15 +167,20 @@
 }
 
 .publication__hero {
-  margin: 1.5em 0 2em;
+  max-width: 760px;
+  margin: 1.5em auto 2em;
+  padding: 1em;
   overflow: hidden;
   border: 1px solid $border-color;
   border-radius: $border-radius;
+  background-color: #fff;
 
   img {
     display: block;
-    width: 100%;
-    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 480px;
+    margin: 0 auto;
   }
 }
 
